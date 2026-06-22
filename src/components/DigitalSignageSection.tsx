@@ -46,7 +46,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[420px] aspect-[3/4]",
   },
   {
-    src: totem2,
+    src: totemMain,
     alt: "Tótem Window",
     title: "Tótem Window",
     description:
@@ -62,7 +62,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[420px] aspect-[3/4]",
   },
   {
-    src: totemMain,
+    src: totem2,
     alt: "Tótem Square Lite",
     title: "Tótem Square Lite",
     description:
@@ -70,7 +70,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[520px] aspect-[4/5]",
   },
   {
-    src: cubeImg,
+    src: totem3,
     alt: "Kiosko Cube",
     title: "Kiosko Cube",
     description:
@@ -78,7 +78,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[400px] aspect-[3/4]",
   },
   {
-    src: totem5,
+    src: totem4,
     alt: "Kiosko Crew",
     title: "Kiosko Crew",
     description:
@@ -86,7 +86,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[400px] aspect-[3/4]",
   },
   {
-    src: totem4,
+    src: totem5,
     alt: "Kiosko Posh",
     title: "Kiosko Posh",
     description:
@@ -94,7 +94,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-square",
   },
   {
-    src: eyeImg,
+    src: cubeImg,
     alt: "Kiosko Eye",
     title: "Kiosko Eye",
     description:
@@ -102,7 +102,7 @@ const catalogItems = [
     sizeClass: "md:max-w-[460px] aspect-[4/5]",
   },
   {
-    src: totem3,
+    src: eyeImg,
     alt: "Kiosko Touch",
     title: "Kiosko Touch",
     description:
