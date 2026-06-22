@@ -53,21 +53,26 @@ const HeroSection = () => (
       </motion.div>
 
       {/* 4. Proposal info */}
-      <motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
-        <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Nombre de cliente:</span> <span className="text-foreground/80">MySphera</span>
-        <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Persona de contacto:</span>{" "}
-          <span className="text-foreground/80">[Nombre y Apellidos]</span>
-        </p>
-        <p className="text-sm text-muted-foreground">
-          <span className="opacity-60">Creado por:</span> <span className="text-foreground/80">David Ochoa Tapia</span>
-        </p>
-        <p className="text-xs text-muted-foreground/60 italic">
-          Responsable del Departamento de Tecnología e Innovación
-        </p>
-      </motion.div>
+<motion.div className="flex flex-col items-center gap-1.5 mt-2" {...fadeUp(0.6)}>
+  <p className="text-sm text-muted-foreground">
+    <span className="opacity-60">Nombre de cliente:</span>{" "}
+    <span className="text-foreground/80">MySphera</span>
+  </p>
 
+  <p className="text-sm text-muted-foreground">
+    <span className="opacity-60">Persona de contacto:</span>{" "}
+    <span className="text-foreground/80">[Nombre y Apellidos]</span>
+  </p>
+
+  <p className="text-sm text-muted-foreground">
+    <span className="opacity-60">Creado por:</span>{" "}
+    <span className="text-foreground/80">David Ochoa Tapia</span>
+  </p>
+
+  <p className="text-xs text-muted-foreground/60 italic">
+    Responsable del Departamento de Tecnología e Innovación
+  </p>
+</motion.div>
       {/* 5. Scroll indicator */}
       <motion.div
         className="mt-10 flex justify-center"
