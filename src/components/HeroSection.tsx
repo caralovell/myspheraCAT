@@ -61,7 +61,7 @@ const HeroSection = () => (
 
   <p className="text-sm text-muted-foreground">
     <span className="opacity-60">Persona de contacto:</span>{" "}
-    <span className="text-foreground/80">[Nombre y Apellidos]</span>
+    <span className="text-foreground/80">Juan Antonio Mateo</span>
   </p>
 
   <p className="text-sm text-muted-foreground">
