@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import LogopostLogo from "./LogopostLogo";
-import generico from "@/assets/generico.png";
+import generico from "@/assets/mysphera.png";
 
 const fadeUp = (delay: number) => ({
   initial: { opacity: 0, y: 16 },
