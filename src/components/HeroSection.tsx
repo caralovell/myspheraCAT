@@ -30,7 +30,7 @@ const HeroSection = () => (
     <div className="relative z-10 flex flex-col items-center gap-8 max-w-3xl w-full">
       {/* 1. Client logo placeholder */}
       <motion.div {...fadeUp(0.1)}>
-        <img src={generico} alt="Generico" className="h-20 md:h-24 w-auto" />
+        <img src={generico} alt="Generico" className="h-12 md:h-14 w-auto" />
       </motion.div>
 
       {/* 2. Label */}
